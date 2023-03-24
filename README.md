@@ -1,16 +1,24 @@
-# wordpress_as_a_service
+# Wordpress as a service
+## Using clean architecture
 
-A new Flutter project.
+The main goal of this program was to make a simple template for using clean architecture in a flutter project.
+For this project I used a local docker instance of wordpress, but any wordpress site with a public api will work.
 
-## Getting Started
+Dependies used for this project:
+- get_it - is used to create the IoC container for Dependency Injection
+- http - is the http client used
+- bloc and flutter_bloc - for the state managment
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Remember to 
+```sh
+flutter clean
+```
+and
+
+```sh
+flutter pub get
+```
+

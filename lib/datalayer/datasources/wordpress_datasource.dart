@@ -11,8 +11,7 @@ abstract class WordpressDataSource {
 class WordpressDataSourceImpl implements WordpressDataSource {
   final http.Client client;
   // I am using a local docker instance of wordpress, i will link to my docker setup in the documentation
-  var baseUrl = "http://l3.ucnit.eu:8000/wp-json/wp/v2";
-  /* http://localhost:8000/wp-json/wp/v2 */
+  var baseUrl = "http://localhost:8000/wp-json/wp/v2";
 
   WordpressDataSourceImpl({required this.client});
 
